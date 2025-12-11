@@ -7,9 +7,6 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
     <main className="min-h-screen text-gray-400 color-purple-500">
       <Header />
       <div className="container py-10">{children}</div>
-      <nav >
-        <NavItems />
-      </nav>
 
       {/* UserDropdown */}
     </main>
